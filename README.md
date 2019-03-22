@@ -40,17 +40,17 @@ Dependencies
 For my analysis I made use of the following configuration and dependencies:
 
 
-Spark 2.3
-Python 3.5.0
-pandas 0.22.0
-plotly 3.6.1
-matplotlib 2.2.3
-seaborn 0.9.0
+* Spark 2.3
+* Python 3.5.0
+* pandas 0.22.0
+* plotly 3.6.1
+* matplotlib 2.2.3
+* seaborn 0.9.0
 
 User installation
 Clone the github repository and install all the dependencies.
 
-git clone git@github.com:Rmostert/Sparkify-churn.git
+`git clone git@github.com:Rmostert/Sparkify-churn.git`
 
 ## Motivation
 
