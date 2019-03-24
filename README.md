@@ -30,9 +30,9 @@ I made use of the medium-sized dataset and made use of IBM Watson studio to expl
 
 Data download links
 
-Link to small-sized subset of Sparkify data (125 mb): s3n://udacity-dsnd/sparkify/mini_sparkify_event_data.json
-Link to medium-sized subset of Sparkify data (237 mb):  https://s3.amazonaws.com/video.udacity-data.com/topher/2018/December/5c1d6681_medium-sparkify-event-data/medium-sparkify-event-data.json
-Link to full Sparkify dataset on AWS (12 gb): s3n://udacity-dsnd/sparkify/sparkify_event_data.json
+* Link to small-sized subset of Sparkify data (125 mb): s3n://udacity-dsnd/sparkify/mini_sparkify_event_data.json
+* Link to medium-sized subset of Sparkify data (237 mb):  https://s3.amazonaws.com/video.udacity-data.com/topher/2018/December/5c1d6681_medium-sparkify-event-data/medium-sparkify-event-data.json
+* Link to full Sparkify dataset on AWS (12 gb): s3n://udacity-dsnd/sparkify/sparkify_event_data.json
 
 ## Instructions
 
@@ -64,16 +64,27 @@ I considered the following models when deciding on the best model to predict cus
 * Linear Support vector machine
 * Gradient Boosting tree
 
-The Random forest performed the best based on the F-measure. Here are some of the metrics for the final model after performing grid search:
+Below are some metrics for the 3 models:
 
-|Measure        |Value        |
-|---------------------|-------|
-|Area under ROC       |0.91   |
-|Accuracy             |0.83   |
-|Precision            |0.71   |
-|Recall               |0.83   |
-|F statistic          |0.73   |
+<p align="center">
+  <img src="outputs/Model metrics.png" title="Model metrics">
+</p>
 
+The Gradient Boosting tree performed the best based on the F-measure. Here are some of the metrics for the final model after performing grid search:
+
+|Measure                  |Value  |
+|-------------------------|-------|
+|Area under the PR curve  |0.89   |
+|Accuracy                 |0.81   |
+|Precision                |0.69   |
+|Recall                   |0.76   |
+|F statistic              |0.70   |
+
+And the most important features:
+
+<p align="center">
+  <img src="outputs/Variable-importance-plot.png" title="Variable importance plot">
+</p>
 
 
 
