@@ -27,7 +27,7 @@ mini_sparkify_event_data.json: the smallest instance of the dataset (125 mb)
 medium-sparkify-event-data.json: a medium-sized instance of the dataset (237 mb)
 sparkify_event_data.json: the full dataset (12 gb)
 
-I made use of the medium-sized dataset and made use of IBM Watson studio to explore the data and build a churn modelling
+I made use of the medium-sized dataset and made use of IBM Watson studio to explore the data and build a churn model.
 
 Data download links
 
