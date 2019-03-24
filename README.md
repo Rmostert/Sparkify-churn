@@ -91,4 +91,4 @@ And the most important features:
 
 ## Acknowledgements and Licensing
 
-Please see the LICENCE .txt file
+Please see the LICENCE.txt file
