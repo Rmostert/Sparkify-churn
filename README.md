@@ -55,7 +55,7 @@ Clone the github repository and install all the dependencies.
 
 ## Motivation
 
-This project is my Capstone project that I did for my Data Science Nanodegree I did through Udacity. The objective is to illustrate the use of Big data technologies and cloud services in the exploration, manipulation and modelling of big datasets.
+This project is my Capstone project that I did for my Data Science Nanodegree through Udacity. The objective is to illustrate the use of Big data technologies and cloud services in the exploration, manipulation and modelling of big datasets.
 
 ## Summary of Results
 
