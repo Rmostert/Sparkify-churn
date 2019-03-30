@@ -76,10 +76,10 @@ The Gradient Boosting tree performed the best based on the F-measure. Here are s
 |Measure                  |Value  |
 |-------------------------|-------|
 |Area under the PR curve  |0.89   |
-|Accuracy                 |0.81   |
-|Precision                |0.69   |
-|Recall                   |0.76   |
-|F statistic              |0.70   |
+|Accuracy                 |0.86   |
+|Precision                |0.77   |
+|Recall                   |0.83   |
+|F statistic              |0.78   |
 
 And the most important features:
 
